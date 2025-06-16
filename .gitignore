@@ -1,0 +1,5 @@
+# streamlit secrets
+.streamlit
+
+# virtual env
+.venv
