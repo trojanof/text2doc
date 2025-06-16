@@ -12,14 +12,10 @@ requires-python = ">=3.12"
 [tool.poetry]
 package-mode = false
 
-dependencies = [
-    "python-docx (>=1.1.2,<2.0.0)",
-    "python-telegram-bot (>=22.1,<23.0)",
-    "streamlit (>=1.45.1,<2.0.0)",
-    "telebot (>=0.0.5,<0.0.6)"
-]
-
-
+[tool.poetry.dependencies]
+streamlit = "^1.45.1"
+telebot = "^0.0.5"
+python-docx = "^1.1.2"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
