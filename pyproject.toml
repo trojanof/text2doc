@@ -13,7 +13,6 @@ requires-python = ">=3.12"
 package-mode = false
 
 [tool.poetry.dependencies]
-streamlit = "^1.45.1"
 telebot = "^0.0.5"
 python-docx = "^1.1.2"
 [build-system]
