@@ -161,6 +161,7 @@ def main():
     """Основная функция"""
     logger.info("Бот запущен...")
     logger.info(f"Бот: @{bot.get_me().username}")
+    logger.info("Бот работает по адресу https://t.me/msg2doc_bot")
 
     # Запускаем бота
     try:
