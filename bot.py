@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен бота (замените на ваш токен)
-BOT_TOKEN = os.environ['TOKEN']
+BOT_TOKEN = os.environ['BOT_TOKEN']
 
 # Создаем бота
 bot = telebot.TeleBot(BOT_TOKEN)
